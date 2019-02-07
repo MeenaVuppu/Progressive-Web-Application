@@ -1,0 +1,39 @@
+{
+	"profile": {
+		"img": "image/prabhas.png",
+		"name": "meena",
+		"roll": "594",
+		"institute": "pragati",
+		"place": "ptp"
+	},
+	"career": {
+		"info": "To be independent"
+	},
+	"education": [{
+			"s": "1",
+			"degree": "b.tech",
+			"institute": "xxxxx",
+			"yop": "2020"
+		},
+		{
+			"s": "2",
+			"degree": "inter",
+			"institute": "xxxxx",
+			"yop": "2016"
+
+		},
+		{
+			"s": "3",
+			"degree": "10th",
+			"institute": "xxxxx",
+			"yop": "2014"
+		}
+	],
+	"languages": [{
+			"lang": "english"
+		},
+		{
+			"lang": "telugu"
+		}
+	]
+}

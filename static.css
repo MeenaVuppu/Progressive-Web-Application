@@ -1,0 +1,105 @@
+/*desktop view*/
+body{
+	background: lightgreen;
+}
+#main{
+	background: aqua;
+	margin:3%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.leftdiv{
+	background: pink;
+	border-radius: 5%;
+	text-align: center;
+	margin: 5%;
+	margin-left: 7%;
+	height: 55%;
+	width: 25%;
+	box-shadow: 2px 2px 2px 2px;
+	
+}
+.rightdiv{
+	background: pink;
+	border-radius: 5%;
+	margin-left:5%;
+	margin-right: 8%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 50%;
+	height: 90%;
+	padding: 5%;
+	box-shadow: 2px 2px 2px 2px;
+}
+img{
+	width:25%;
+	height: 25%;
+	border-radius: 5%;
+	margin: 3%;
+
+}
+/*mobile view*/
+@media screen and (max-width:480px) {
+	body{
+		background: black;
+	}
+	#main{
+		background: brown;
+	margin:3%;
+	display: inline-block;
+	justify-content: space-around;
+	} 
+	.leftdiv{
+	background: bisque;
+	border-radius: 5%;
+	text-align: center;
+	margin: 2%;
+	height: 50%;
+	width: 50%;
+	box-shadow: 2px 2px 2px 2px;
+	
+}
+.rightdiv{
+	background: bisque;
+	border-radius: 5%;
+	margin:2%;
+	width: 85%;
+	height: 90%;
+	padding: 5%;
+	box-shadow: 2px 2px 2px 2px;
+}
+	
+}
+/*tablet view*/
+@media screen and (min-width: 780px) and (max-width:1450px) {
+	body{
+		background:#E20A48 ;
+	}
+	#main{
+		background:#0AD8E2;
+	margin:3%;
+	display: flex;
+	justify-content: space-around;
+	} 
+	.leftdiv{
+	background:yellow ;
+	border-radius: 5%;
+	text-align: center;
+	margin: 2%;
+	height: 50%;
+	width: 50%;
+	box-shadow: 2px 2px 2px 2px;
+	
+}
+.rightdiv{
+	background:yellow  ;
+	border-radius: 5%;
+	margin:2%;
+	width: 85%;
+	height: 90%;
+	padding: 5%;
+	box-shadow: 2px 2px 2px 2px;
+}
+	
+}
